@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ridwan KERENNN</title>
+        <link rel="stylesheet" type="text/css" href="style.css"
+    </head>
+    <body>
+        <header>
+            <a href="#" class="wantzy.png">
+                <img src="wantzy.png" width="100px"><br>
+            </a>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </ul>
+        </header>
+        <section class="parallax">
+            <h2 id="text">Ridwan Keren</h2>
+            <img src="monutain_01.png" id="m1">
+            <img src="trees_02.png" id="t2">
+            <img src="monutain_02.png" id="m2">
+            <img src="trees_01.png" id="t1">
+            <img src="man.png" id="man">
+            <img src="plants.png" id="plants">
+        </section>
+        <section class="sec">
+            <h2>RIDWAN KERENNN</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis sapiente praesentium itaque natus officiis facilis veniam? Praesentium, labore. Animi non necessitatibus ipsam officiis accusamus. Voluptatibus dolor quidem laboriosam nostrum, blanditiis distinctio nobis eaque repellendus debitis animi perspiciatis deserunt illo eligendi quae, sunt tempora voluptate ducimus aut iure, itaque ab iste recusandae error! Sed, ea omnis libero voluptatum minima eum veritatis assumenda delectus esse et inventore iste ipsa quos, quam molestiae atque? Sunt, maxime. Similique magni voluptate impedit omnis hic, fugit fugiat dolorum deserunt ut modi placeat temporibus eos excepturi rem, velit tempora neque nam dolorem? Eius voluptates ipsa corporis accusamus dolore? Beatae dignissimos impedit, ducimus sint possimus, minus modi animi, blanditiis repellendus distinctio perferendis dolore iusto cumque fugit nihil aperiam magni? Ab earum ex cum omnis expedita quos animi ad nam iusto ea autem, soluta architecto doloribus fugiat distinctio neque nobis voluptates enim quibusdam quae cupiditate doloremque. Nisi eum quaerat vitae cumque, labore sapiente nobis, natus similique mollitia qui ipsa doloremque enim hic, accusamus facere quos perferendis asperiores quas quis. Cupiditate vel architecto eveniet excepturi minima quos quo nisi corporis distinctio? Iste ad illo a. Debitis, quae unde, non at consectetur ipsa praesentium ducimus harum animi ex ullam. Omnis?</p>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+        <script>
+            gsap.from("#m1",{
+                scrollTrigger : {
+                    scrub: true
+                },
+                y: 100,
+            })
+            gsap.from("#m2",{
+                scrollTrigger : {
+                    scrub: true
+                },
+                y: 50,
+            })
+            gsap.from("#t2",{
+                scrollTrigger : {
+                    scrub: true
+                },
+                x: -50,
+            })
+            gsap.from("#t1",{
+                scrollTrigger : {
+                    scrub: true
+                },
+                x: 50,
+            })
+            gsap.from("#man",{
+                scrollTrigger : {
+                    scrub: true
+                },
+                x: -250,
+            })
+            gsap.from("#plants",{
+                scrollTrigger : {
+                    scrub: true
+                },
+                x: -50,
+            })
+            gsap.from("#text",{
+                scrollTrigger : {
+                    scrub: true
+                },
+                x: 600,
+            })
+        </script>
+    </body>
+</html>
